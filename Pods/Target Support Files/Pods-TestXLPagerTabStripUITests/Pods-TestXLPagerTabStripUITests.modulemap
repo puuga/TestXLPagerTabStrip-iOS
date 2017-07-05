@@ -1,0 +1,6 @@
+framework module Pods_TestXLPagerTabStripUITests {
+  umbrella header "Pods-TestXLPagerTabStripUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

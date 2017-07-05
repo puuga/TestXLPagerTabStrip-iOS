@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		120FA4F5FC84BF8F67A3FEBE /* Pods_TestXLPagerTabStripTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE38A0B4C6007BB34F51B86D /* Pods_TestXLPagerTabStripTests.framework */; };
+		411EB3351F0CE84700E1229F /* MyTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411EB3341F0CE84700E1229F /* MyTabViewController.swift */; };
 		41E3F84F1F0CE27F00948B42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E3F84E1F0CE27F00948B42 /* AppDelegate.swift */; };
 		41E3F8511F0CE27F00948B42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E3F8501F0CE27F00948B42 /* ViewController.swift */; };
 		41E3F8541F0CE27F00948B42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E3F8521F0CE27F00948B42 /* Main.storyboard */; };
@@ -14,6 +16,11 @@
 		41E3F8591F0CE27F00948B42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E3F8571F0CE27F00948B42 /* LaunchScreen.storyboard */; };
 		41E3F8641F0CE27F00948B42 /* TestXLPagerTabStripTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E3F8631F0CE27F00948B42 /* TestXLPagerTabStripTests.swift */; };
 		41E3F86F1F0CE27F00948B42 /* TestXLPagerTabStripUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E3F86E1F0CE27F00948B42 /* TestXLPagerTabStripUITests.swift */; };
+		41E3F87F1F0CE2BC00948B42 /* Tab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E3F87E1F0CE2BC00948B42 /* Tab.storyboard */; };
+		41E3F8811F0CE50E00948B42 /* AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E3F8801F0CE50E00948B42 /* AViewController.swift */; };
+		41E3F8831F0CE51F00948B42 /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E3F8821F0CE51F00948B42 /* BViewController.swift */; };
+		9B6F268D8591308EA67A9848 /* Pods_TestXLPagerTabStrip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A73D03020B3322DB2F42F1 /* Pods_TestXLPagerTabStrip.framework */; };
+		A4CAB9DC75401B4FB7B6C920 /* Pods_TestXLPagerTabStripUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B86280E623E0B8966C1FE2 /* Pods_TestXLPagerTabStripUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04C31E1489FC07FEE0941996 /* Pods-TestXLPagerTabStrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestXLPagerTabStrip.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestXLPagerTabStrip/Pods-TestXLPagerTabStrip.release.xcconfig"; sourceTree = "<group>"; };
+		3FEC7A94C19023B0E449116E /* Pods-TestXLPagerTabStripUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestXLPagerTabStripUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestXLPagerTabStripUITests/Pods-TestXLPagerTabStripUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		411EB3341F0CE84700E1229F /* MyTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabViewController.swift; sourceTree = "<group>"; };
 		41E3F84B1F0CE27F00948B42 /* TestXLPagerTabStrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestXLPagerTabStrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41E3F84E1F0CE27F00948B42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41E3F8501F0CE27F00948B42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,16 @@
 		41E3F86A1F0CE27F00948B42 /* TestXLPagerTabStripUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestXLPagerTabStripUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41E3F86E1F0CE27F00948B42 /* TestXLPagerTabStripUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestXLPagerTabStripUITests.swift; sourceTree = "<group>"; };
 		41E3F8701F0CE27F00948B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41E3F87E1F0CE2BC00948B42 /* Tab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tab.storyboard; sourceTree = "<group>"; };
+		41E3F8801F0CE50E00948B42 /* AViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AViewController.swift; sourceTree = "<group>"; };
+		41E3F8821F0CE51F00948B42 /* BViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
+		47550AF32749D9FA5C8519A0 /* Pods-TestXLPagerTabStripUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestXLPagerTabStripUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestXLPagerTabStripUITests/Pods-TestXLPagerTabStripUITests.release.xcconfig"; sourceTree = "<group>"; };
+		71A73D03020B3322DB2F42F1 /* Pods_TestXLPagerTabStrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestXLPagerTabStrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ADF099AA46641B89C6C6BEA /* Pods-TestXLPagerTabStripTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestXLPagerTabStripTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestXLPagerTabStripTests/Pods-TestXLPagerTabStripTests.release.xcconfig"; sourceTree = "<group>"; };
+		ACEEBB8AB00E2CA707A3DF12 /* Pods-TestXLPagerTabStrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestXLPagerTabStrip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestXLPagerTabStrip/Pods-TestXLPagerTabStrip.debug.xcconfig"; sourceTree = "<group>"; };
+		AE38A0B4C6007BB34F51B86D /* Pods_TestXLPagerTabStripTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestXLPagerTabStripTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B86280E623E0B8966C1FE2 /* Pods_TestXLPagerTabStripUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestXLPagerTabStripUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F63ECDD6D872A0A46A689315 /* Pods-TestXLPagerTabStripTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestXLPagerTabStripTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestXLPagerTabStripTests/Pods-TestXLPagerTabStripTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B6F268D8591308EA67A9848 /* Pods_TestXLPagerTabStrip.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				120FA4F5FC84BF8F67A3FEBE /* Pods_TestXLPagerTabStripTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4CAB9DC75401B4FB7B6C920 /* Pods_TestXLPagerTabStripUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +104,8 @@
 				41E3F8621F0CE27F00948B42 /* TestXLPagerTabStripTests */,
 				41E3F86D1F0CE27F00948B42 /* TestXLPagerTabStripUITests */,
 				41E3F84C1F0CE27F00948B42 /* Products */,
+				D62AB3FFB2CEDFB5714C8ADB /* Pods */,
+				83FAD987A1FD124570D4BFE8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +122,16 @@
 		41E3F84D1F0CE27F00948B42 /* TestXLPagerTabStrip */ = {
 			isa = PBXGroup;
 			children = (
+				41E3F85A1F0CE27F00948B42 /* Info.plist */,
+				41E3F87E1F0CE2BC00948B42 /* Tab.storyboard */,
 				41E3F84E1F0CE27F00948B42 /* AppDelegate.swift */,
+				41E3F8801F0CE50E00948B42 /* AViewController.swift */,
+				41E3F8821F0CE51F00948B42 /* BViewController.swift */,
+				411EB3341F0CE84700E1229F /* MyTabViewController.swift */,
 				41E3F8501F0CE27F00948B42 /* ViewController.swift */,
-				41E3F8521F0CE27F00948B42 /* Main.storyboard */,
 				41E3F8551F0CE27F00948B42 /* Assets.xcassets */,
 				41E3F8571F0CE27F00948B42 /* LaunchScreen.storyboard */,
-				41E3F85A1F0CE27F00948B42 /* Info.plist */,
+				41E3F8521F0CE27F00948B42 /* Main.storyboard */,
 			);
 			path = TestXLPagerTabStrip;
 			sourceTree = "<group>";
@@ -125,6 +154,29 @@
 			path = TestXLPagerTabStripUITests;
 			sourceTree = "<group>";
 		};
+		83FAD987A1FD124570D4BFE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71A73D03020B3322DB2F42F1 /* Pods_TestXLPagerTabStrip.framework */,
+				AE38A0B4C6007BB34F51B86D /* Pods_TestXLPagerTabStripTests.framework */,
+				C9B86280E623E0B8966C1FE2 /* Pods_TestXLPagerTabStripUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D62AB3FFB2CEDFB5714C8ADB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACEEBB8AB00E2CA707A3DF12 /* Pods-TestXLPagerTabStrip.debug.xcconfig */,
+				04C31E1489FC07FEE0941996 /* Pods-TestXLPagerTabStrip.release.xcconfig */,
+				F63ECDD6D872A0A46A689315 /* Pods-TestXLPagerTabStripTests.debug.xcconfig */,
+				9ADF099AA46641B89C6C6BEA /* Pods-TestXLPagerTabStripTests.release.xcconfig */,
+				3FEC7A94C19023B0E449116E /* Pods-TestXLPagerTabStripUITests.debug.xcconfig */,
+				47550AF32749D9FA5C8519A0 /* Pods-TestXLPagerTabStripUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41E3F8731F0CE27F00948B42 /* Build configuration list for PBXNativeTarget "TestXLPagerTabStrip" */;
 			buildPhases = (
+				EC0BE2DA7B057D3F8D464331 /* [CP] Check Pods Manifest.lock */,
 				41E3F8471F0CE27F00948B42 /* Sources */,
 				41E3F8481F0CE27F00948B42 /* Frameworks */,
 				41E3F8491F0CE27F00948B42 /* Resources */,
+				D78858B8B3009028582FEABD /* [CP] Embed Pods Frameworks */,
+				F14F512BF0B1596CA6D346C3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41E3F8761F0CE27F00948B42 /* Build configuration list for PBXNativeTarget "TestXLPagerTabStripTests" */;
 			buildPhases = (
+				54089A285BF1422646BAB469 /* [CP] Check Pods Manifest.lock */,
 				41E3F85B1F0CE27F00948B42 /* Sources */,
 				41E3F85C1F0CE27F00948B42 /* Frameworks */,
 				41E3F85D1F0CE27F00948B42 /* Resources */,
+				81C8A508984525242DB0EB55 /* [CP] Embed Pods Frameworks */,
+				E00E8ACAF322705458B99F27 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41E3F8791F0CE27F00948B42 /* Build configuration list for PBXNativeTarget "TestXLPagerTabStripUITests" */;
 			buildPhases = (
+				810A4FDD42ED2D44A8965E87 /* [CP] Check Pods Manifest.lock */,
 				41E3F8661F0CE27F00948B42 /* Sources */,
 				41E3F8671F0CE27F00948B42 /* Frameworks */,
 				41E3F8681F0CE27F00948B42 /* Resources */,
+				EB2E26860EB5D35BF532AABC /* [CP] Embed Pods Frameworks */,
+				6149314BAA1148A30584C7AF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +254,7 @@
 				TargetAttributes = {
 					41E3F84A1F0CE27F00948B42 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = XYW2JG27N9;
 						ProvisioningStyle = Automatic;
 					};
 					41E3F85E1F0CE27F00948B42 = {
@@ -232,6 +294,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41E3F87F1F0CE2BC00948B42 /* Tab.storyboard in Resources */,
 				41E3F8591F0CE27F00948B42 /* LaunchScreen.storyboard in Resources */,
 				41E3F8561F0CE27F00948B42 /* Assets.xcassets in Resources */,
 				41E3F8541F0CE27F00948B42 /* Main.storyboard in Resources */,
@@ -254,12 +317,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		54089A285BF1422646BAB469 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6149314BAA1148A30584C7AF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestXLPagerTabStripUITests/Pods-TestXLPagerTabStripUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		810A4FDD42ED2D44A8965E87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		81C8A508984525242DB0EB55 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestXLPagerTabStripTests/Pods-TestXLPagerTabStripTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D78858B8B3009028582FEABD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestXLPagerTabStrip/Pods-TestXLPagerTabStrip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E00E8ACAF322705458B99F27 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestXLPagerTabStripTests/Pods-TestXLPagerTabStripTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB2E26860EB5D35BF532AABC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestXLPagerTabStripUITests/Pods-TestXLPagerTabStripUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC0BE2DA7B057D3F8D464331 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F14F512BF0B1596CA6D346C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestXLPagerTabStrip/Pods-TestXLPagerTabStrip-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		41E3F8471F0CE27F00948B42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				41E3F8511F0CE27F00948B42 /* ViewController.swift in Sources */,
+				411EB3351F0CE84700E1229F /* MyTabViewController.swift in Sources */,
+				41E3F8831F0CE51F00948B42 /* BViewController.swift in Sources */,
+				41E3F8811F0CE50E00948B42 /* AViewController.swift in Sources */,
 				41E3F84F1F0CE27F00948B42 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,8 +616,10 @@
 		};
 		41E3F8741F0CE27F00948B42 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACEEBB8AB00E2CA707A3DF12 /* Pods-TestXLPagerTabStrip.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XYW2JG27N9;
 				INFOPLIST_FILE = TestXLPagerTabStrip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.siwawesw.TestXLPagerTabStrip;
@@ -424,8 +630,10 @@
 		};
 		41E3F8751F0CE27F00948B42 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04C31E1489FC07FEE0941996 /* Pods-TestXLPagerTabStrip.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XYW2JG27N9;
 				INFOPLIST_FILE = TestXLPagerTabStrip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.siwawesw.TestXLPagerTabStrip;
@@ -436,6 +644,7 @@
 		};
 		41E3F8771F0CE27F00948B42 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F63ECDD6D872A0A46A689315 /* Pods-TestXLPagerTabStripTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -450,6 +659,7 @@
 		};
 		41E3F8781F0CE27F00948B42 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ADF099AA46641B89C6C6BEA /* Pods-TestXLPagerTabStripTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +674,7 @@
 		};
 		41E3F87A1F0CE27F00948B42 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FEC7A94C19023B0E449116E /* Pods-TestXLPagerTabStripUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = TestXLPagerTabStripUITests/Info.plist;
@@ -477,6 +688,7 @@
 		};
 		41E3F87B1F0CE27F00948B42 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47550AF32749D9FA5C8519A0 /* Pods-TestXLPagerTabStripUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = TestXLPagerTabStripUITests/Info.plist;
@@ -507,6 +719,7 @@
 				41E3F8751F0CE27F00948B42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41E3F8761F0CE27F00948B42 /* Build configuration list for PBXNativeTarget "TestXLPagerTabStripTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +728,7 @@
 				41E3F8781F0CE27F00948B42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41E3F8791F0CE27F00948B42 /* Build configuration list for PBXNativeTarget "TestXLPagerTabStripUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +737,7 @@
 				41E3F87B1F0CE27F00948B42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

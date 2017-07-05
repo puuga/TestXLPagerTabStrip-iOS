@@ -20,6 +20,14 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func onClick(_ sender: UIButton) {
+        let storyboard = UIStoryboard(name: "Tab", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "MyTabViewController") as! MyTabViewController
+        let nc = UINavigationController(rootViewController: vc)
+        
+        self.present(nc, animated: true, completion: nil)
+    }
 
 }
 
+//
